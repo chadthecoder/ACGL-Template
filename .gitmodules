@@ -1,0 +1,3 @@
+[submodule "lib/openGL_vcpkg"]
+	path = lib/openGL_vcpkg
+	url = https://github.com/chadthecoder/openGL_vcpkg.git
