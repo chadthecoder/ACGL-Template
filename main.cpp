@@ -5,5 +5,7 @@ int main() {
 
     Camera cam(800, 800, test);
 
+    std::cout << "success!\n";
+
     return 0;
 }

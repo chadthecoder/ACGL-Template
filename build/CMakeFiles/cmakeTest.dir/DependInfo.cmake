@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lib/openGL_vcpkg/include"
   "../lib/openGL_vcpkg/vcpkg_installed"
+  "../vcpkg_installed/x64-linux/include"
   )
 
 # Targets to which this target links.

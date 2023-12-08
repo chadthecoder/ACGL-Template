@@ -23,6 +23,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lib/openGL_vcpkg/include"
   "../lib/openGL_vcpkg/vcpkg_installed/x64-linux/include"
+  "../vcpkg_installed/x64-linux/include"
   )
 
 # Targets to which this target links.

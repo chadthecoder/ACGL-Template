@@ -1,9 +1,9 @@
-Package: glm
-Version: 0.9.9.8
-Port-Version: 2
-Depends: vcpkg-cmake, vcpkg-cmake-config
+Package: glad
+Version: 0.1.36
+Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-linux
 Multi-Arch: same
-Abi: ba9d9e27c05b5b98f84a27ae9c66bf40a701d5b92c45ca19312e6eca431339a4
-Description: OpenGL Mathematics (GLM)
+Abi: 347a68f1f1678189d7ee4bd86e2708222e3fcf9ebd9cd01208f878adc9b954f7
+Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+Default-Features: loader
 Status: install ok half-installed
