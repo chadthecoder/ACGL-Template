@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cmakeTest.dir/main.cpp.o  -o cmakeTest  lib/openGL_vcpkg/libopenGL_vcpkg.a /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 ../lib/openGL_vcpkg/vcpkg_installed/x64-linux/debug/lib/libglad.a /usr/lib/x86_64-linux-gnu/libfmt.a 
