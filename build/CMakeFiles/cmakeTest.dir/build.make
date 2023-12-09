@@ -57,27 +57,27 @@ include CMakeFiles/cmakeTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cmakeTest.dir/flags.make
 
-CMakeFiles/cmakeTest.dir/main.cpp.o: CMakeFiles/cmakeTest.dir/flags.make
-CMakeFiles/cmakeTest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmakeTest.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmakeTest.dir/main.cpp.o -c /home/chadthecoder/Code/cmakeIncludeTest/main.cpp
+CMakeFiles/cmakeTest.dir/src/main.cpp.o: CMakeFiles/cmakeTest.dir/flags.make
+CMakeFiles/cmakeTest.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmakeTest.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmakeTest.dir/src/main.cpp.o -c /home/chadthecoder/Code/cmakeIncludeTest/src/main.cpp
 
-CMakeFiles/cmakeTest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmakeTest.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/cmakeIncludeTest/main.cpp > CMakeFiles/cmakeTest.dir/main.cpp.i
+CMakeFiles/cmakeTest.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmakeTest.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/cmakeIncludeTest/src/main.cpp > CMakeFiles/cmakeTest.dir/src/main.cpp.i
 
-CMakeFiles/cmakeTest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmakeTest.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/cmakeIncludeTest/main.cpp -o CMakeFiles/cmakeTest.dir/main.cpp.s
+CMakeFiles/cmakeTest.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmakeTest.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/cmakeIncludeTest/src/main.cpp -o CMakeFiles/cmakeTest.dir/src/main.cpp.s
 
 # Object files for target cmakeTest
 cmakeTest_OBJECTS = \
-"CMakeFiles/cmakeTest.dir/main.cpp.o"
+"CMakeFiles/cmakeTest.dir/src/main.cpp.o"
 
 # External object files for target cmakeTest
 cmakeTest_EXTERNAL_OBJECTS =
 
-cmakeTest: CMakeFiles/cmakeTest.dir/main.cpp.o
+cmakeTest: CMakeFiles/cmakeTest.dir/src/main.cpp.o
 cmakeTest: CMakeFiles/cmakeTest.dir/build.make
 cmakeTest: lib/openGL_vcpkg/libopenGL_vcpkg.a
 cmakeTest: ../vcpkg_installed/x64-linux/debug/lib/libglad.a

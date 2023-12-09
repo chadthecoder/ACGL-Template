@@ -1,6 +1,26 @@
 Detecting compiler hash for triplet x64-linux...
-All requested packages are currently installed.
-Total install time: 235 ns
+The following packages will be built and installed:
+  * egl-registry:x64-linux -> 2022-09-20
+    glad[core,loader]:x64-linux -> 0.1.36
+    glm:x64-linux -> 0.9.9.8#2
+  * opengl-registry:x64-linux -> 2022-09-29#1
+  * vcpkg-cmake:x64-linux -> 2023-05-04
+  * vcpkg-cmake-config:x64-linux -> 2022-02-06#1
+Additional packages (*) will be modified to complete this operation.
+Restored 6 package(s) from /home/chadthecoder/.cache/vcpkg/archives in 39.9 ms. Use --debug to see more details.
+Installing 1/6 vcpkg-cmake-config:x64-linux...
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 375 us
+Installing 2/6 vcpkg-cmake:x64-linux...
+Elapsed time to handle vcpkg-cmake:x64-linux: 312 us
+Installing 3/6 egl-registry:x64-linux...
+Elapsed time to handle egl-registry:x64-linux: 473 us
+Installing 4/6 opengl-registry:x64-linux...
+Elapsed time to handle opengl-registry:x64-linux: 1.03 ms
+Installing 5/6 glad:x64-linux...
+Elapsed time to handle glad:x64-linux: 691 us
+Installing 6/6 glm:x64-linux...
+Elapsed time to handle glm:x64-linux: 7.76 ms
+Total install time: 10.7 ms
 glad provides CMake targets:
 
   # this is heuristically generated, and may not be correct

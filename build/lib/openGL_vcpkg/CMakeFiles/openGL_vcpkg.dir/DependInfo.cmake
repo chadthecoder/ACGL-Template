@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lib/openGL_vcpkg/lib/vcpkg"
   "../lib/openGL_vcpkg/include"
   "../lib/openGL_vcpkg/vcpkg_installed/x64-linux/include"
   "../vcpkg_installed/x64-linux/include"

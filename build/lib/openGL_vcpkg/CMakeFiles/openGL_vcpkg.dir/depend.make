@@ -246,7 +246,7 @@ lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Shader.cpp.o: ../lib/openGL_vcp
 
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/include/Shader.hpp
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/include/Texture.hpp
-lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/lib/stb_image.h
+lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/include/stb/stb_image.h
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/vcpkg_installed/x64-linux/include/KHR/khrplatform.h
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/vcpkg_installed/x64-linux/include/glad/glad.h
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o: ../lib/openGL_vcpkg/src/Texture.cpp
@@ -262,6 +262,6 @@ lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/VBO.cpp.o: ../lib/openGL_vcpkg/
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/VBO.cpp.o: ../lib/openGL_vcpkg/vcpkg_installed/x64-linux/include/glad/glad.h
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/VBO.cpp.o: ../lib/openGL_vcpkg/src/VBO.cpp
 
-lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/stb.cpp.o: ../lib/openGL_vcpkg/lib/stb_image.h
+lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/stb.cpp.o: ../lib/openGL_vcpkg/include/stb/stb_image.h
 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/src/stb.cpp.o: ../lib/openGL_vcpkg/src/stb.cpp
 
