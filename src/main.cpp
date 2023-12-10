@@ -3,7 +3,7 @@
 namespace fs = std::filesystem;
 //------------------------------
 
-#include<iostream>
+#include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <stb/stb_image.h>
@@ -11,18 +11,16 @@ namespace fs = std::filesystem;
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include "Texture.hpp"
-#include "Shader.hpp"
-#include "VAO.hpp"
-#include "VBO.hpp"
-#include "EBO.hpp"
-#include "Camera.hpp"
-
+#include "ACGL/Texture.hpp"
+#include "ACGL/Shader.hpp"
+#include "ACGL/VAO.hpp"
+#include "ACGL/VBO.hpp"
+#include "ACGL/EBO.hpp"
+#include "ACGL/Camera.hpp"
 
 
 const unsigned int width = 800;
 const unsigned int height = 800;
-
 
 
 // Vertices coordinates

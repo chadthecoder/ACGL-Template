@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../lib/ACGL/include/Camera.hpp
+../lib/ACGL/include/ACGL/Camera.hpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -21,14 +21,14 @@ glm/gtx/rotate_vector.hpp
 -
 glm/gtx/vector_angle.hpp
 -
-Shader.hpp
-../lib/ACGL/include/Shader.hpp
+ACGL/Shader.hpp
+../lib/ACGL/include/ACGL/ACGL/Shader.hpp
 
-../lib/ACGL/include/EBO.hpp
+../lib/ACGL/include/ACGL/EBO.hpp
 glad/glad.h
 -
 
-../lib/ACGL/include/Shader.hpp
+../lib/ACGL/include/ACGL/Shader.hpp
 glad/glad.h
 -
 string
@@ -42,21 +42,21 @@ iostream
 cerrno
 -
 
-../lib/ACGL/include/Texture.hpp
+../lib/ACGL/include/ACGL/Texture.hpp
 glad/glad.h
 -
 stb/stb_image.h
 -
-Shader.hpp
-../lib/ACGL/include/Shader.hpp
+ACGL/Shader.hpp
+../lib/ACGL/include/ACGL/ACGL/Shader.hpp
 
-../lib/ACGL/include/VAO.hpp
+../lib/ACGL/include/ACGL/VAO.hpp
 glad/glad.h
 -
-VBO.hpp
-../lib/ACGL/include/VBO.hpp
+ACGL/VBO.hpp
+../lib/ACGL/include/ACGL/ACGL/VBO.hpp
 
-../lib/ACGL/include/VBO.hpp
+../lib/ACGL/include/ACGL/VBO.hpp
 glad/glad.h
 -
 
@@ -109,18 +109,18 @@ glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
-Texture.hpp
-/home/chadthecoder/Code/cmakeIncludeTest/src/Texture.hpp
-Shader.hpp
-/home/chadthecoder/Code/cmakeIncludeTest/src/Shader.hpp
-VAO.hpp
-/home/chadthecoder/Code/cmakeIncludeTest/src/VAO.hpp
-VBO.hpp
-/home/chadthecoder/Code/cmakeIncludeTest/src/VBO.hpp
-EBO.hpp
-/home/chadthecoder/Code/cmakeIncludeTest/src/EBO.hpp
-Camera.hpp
-/home/chadthecoder/Code/cmakeIncludeTest/src/Camera.hpp
+ACGL/Texture.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/Texture.hpp
+ACGL/Shader.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/Shader.hpp
+ACGL/VAO.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/VAO.hpp
+ACGL/VBO.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/VBO.hpp
+ACGL/EBO.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/EBO.hpp
+ACGL/Camera.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/Camera.hpp
 
 vcpkg_installed/x64-linux/include/KHR/khrplatform.h
 stdint.h
