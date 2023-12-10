@@ -54,47 +54,47 @@ CMAKE_BINARY_DIR = /home/chadthecoder/Code/cmakeIncludeTest/build
 
 # The main recursive "all" target.
 all: CMakeFiles/cmakeTest.dir/all
-all: lib/openGL_vcpkg/all
+all: lib/ACGL/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: lib/openGL_vcpkg/preinstall
+preinstall: lib/ACGL/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/cmakeTest.dir/clean
-clean: lib/openGL_vcpkg/clean
+clean: lib/ACGL/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory lib/openGL_vcpkg
+# Directory level rules for directory lib/ACGL
 
 # Recursive "all" directory target.
-lib/openGL_vcpkg/all: lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/all
+lib/ACGL/all: lib/ACGL/CMakeFiles/ACGL.dir/all
 
-.PHONY : lib/openGL_vcpkg/all
+.PHONY : lib/ACGL/all
 
 # Recursive "preinstall" directory target.
-lib/openGL_vcpkg/preinstall:
+lib/ACGL/preinstall:
 
-.PHONY : lib/openGL_vcpkg/preinstall
+.PHONY : lib/ACGL/preinstall
 
 # Recursive "clean" directory target.
-lib/openGL_vcpkg/clean: lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/clean
+lib/ACGL/clean: lib/ACGL/CMakeFiles/ACGL.dir/clean
 
-.PHONY : lib/openGL_vcpkg/clean
+.PHONY : lib/ACGL/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cmakeTest.dir
 
 # All Build rule for target.
-CMakeFiles/cmakeTest.dir/all: lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/all
+CMakeFiles/cmakeTest.dir/all: lib/ACGL/CMakeFiles/ACGL.dir/all
 	$(MAKE) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/depend
 	$(MAKE) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles --progress-num=1,2 "Built target cmakeTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles --progress-num=9,10 "Built target cmakeTest"
 .PHONY : CMakeFiles/cmakeTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -115,31 +115,31 @@ CMakeFiles/cmakeTest.dir/clean:
 .PHONY : CMakeFiles/cmakeTest.dir/clean
 
 #=============================================================================
-# Target rules for target lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir
+# Target rules for target lib/ACGL/CMakeFiles/ACGL.dir
 
 # All Build rule for target.
-lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/all:
-	$(MAKE) -f lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/build.make lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/depend
-	$(MAKE) -f lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/build.make lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target openGL_vcpkg"
-.PHONY : lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/all
+lib/ACGL/CMakeFiles/ACGL.dir/all:
+	$(MAKE) -f lib/ACGL/CMakeFiles/ACGL.dir/build.make lib/ACGL/CMakeFiles/ACGL.dir/depend
+	$(MAKE) -f lib/ACGL/CMakeFiles/ACGL.dir/build.make lib/ACGL/CMakeFiles/ACGL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ACGL"
+.PHONY : lib/ACGL/CMakeFiles/ACGL.dir/all
 
 # Build rule for subdir invocation for target.
-lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/rule: cmake_check_build_system
+lib/ACGL/CMakeFiles/ACGL.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 lib/ACGL/CMakeFiles/ACGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles 0
-.PHONY : lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/rule
+.PHONY : lib/ACGL/CMakeFiles/ACGL.dir/rule
 
 # Convenience name for target.
-openGL_vcpkg: lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/rule
+ACGL: lib/ACGL/CMakeFiles/ACGL.dir/rule
 
-.PHONY : openGL_vcpkg
+.PHONY : ACGL
 
 # clean rule for target.
-lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/clean:
-	$(MAKE) -f lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/build.make lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/clean
-.PHONY : lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/clean
+lib/ACGL/CMakeFiles/ACGL.dir/clean:
+	$(MAKE) -f lib/ACGL/CMakeFiles/ACGL.dir/build.make lib/ACGL/CMakeFiles/ACGL.dir/clean
+.PHONY : lib/ACGL/CMakeFiles/ACGL.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

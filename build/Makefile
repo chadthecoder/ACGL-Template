@@ -124,17 +124,17 @@ cmakeTest/fast:
 .PHONY : cmakeTest/fast
 
 #=============================================================================
-# Target rules for targets named openGL_vcpkg
+# Target rules for targets named ACGL
 
 # Build rule for target.
-openGL_vcpkg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 openGL_vcpkg
-.PHONY : openGL_vcpkg
+ACGL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ACGL
+.PHONY : ACGL
 
 # fast build rule for target.
-openGL_vcpkg/fast:
-	$(MAKE) -f lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/build.make lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/build
-.PHONY : openGL_vcpkg/fast
+ACGL/fast:
+	$(MAKE) -f lib/ACGL/CMakeFiles/ACGL.dir/build.make lib/ACGL/CMakeFiles/ACGL.dir/build
+.PHONY : ACGL/fast
 
 src/main.o: src/main.cpp.o
 
@@ -172,7 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cmakeTest"
-	@echo "... openGL_vcpkg"
+	@echo "... ACGL"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

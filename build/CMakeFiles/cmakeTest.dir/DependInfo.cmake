@@ -10,14 +10,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../lib/openGL_vcpkg/lib/vcpkg"
-  "../lib/openGL_vcpkg/include"
-  "../vcpkg_installed/x64-linux/include"
+  "../lib/ACGL/include"
+  "vcpkg_installed/x64-linux/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chadthecoder/Code/cmakeIncludeTest/build/lib/openGL_vcpkg/CMakeFiles/openGL_vcpkg.dir/DependInfo.cmake"
+  "/home/chadthecoder/Code/cmakeIncludeTest/build/lib/ACGL/CMakeFiles/ACGL.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

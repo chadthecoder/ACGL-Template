@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/cmakeTest.dir/src/main.cpp.o  -o cmakeTest  lib/openGL_vcpkg/libopenGL_vcpkg.a ../vcpkg_installed/x64-linux/debug/lib/libglad.a -ldl /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 /usr/lib/x86_64-linux-gnu/libfmt.a 
+/usr/bin/c++     CMakeFiles/cmakeTest.dir/src/main.cpp.o  -o cmakeTest  -Wl,-rpath,/home/chadthecoder/Code/cmakeIncludeTest/build/lib/ACGL lib/ACGL/libACGL.so vcpkg_installed/x64-linux/debug/lib/libglad.a /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -ldl 

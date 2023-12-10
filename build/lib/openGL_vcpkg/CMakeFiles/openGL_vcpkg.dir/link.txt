@@ -1,2 +1,0 @@
-/usr/bin/ar qc libopenGL_vcpkg.a  CMakeFiles/openGL_vcpkg.dir/src/stb.cpp.o CMakeFiles/openGL_vcpkg.dir/src/VBO.cpp.o CMakeFiles/openGL_vcpkg.dir/src/VAO.cpp.o CMakeFiles/openGL_vcpkg.dir/src/Shader.cpp.o CMakeFiles/openGL_vcpkg.dir/src/Texture.cpp.o CMakeFiles/openGL_vcpkg.dir/src/EBO.cpp.o CMakeFiles/openGL_vcpkg.dir/src/Camera.cpp.o
-/usr/bin/ranlib libopenGL_vcpkg.a

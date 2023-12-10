@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chadthecoder/Code/cmakeIncludeTest/lib/openGL_vcpkg/lib/vcpkg -I/home/chadthecoder/Code/cmakeIncludeTest/lib/openGL_vcpkg/include -isystem /home/chadthecoder/Code/cmakeIncludeTest/vcpkg_installed/x64-linux/include 
+CXX_INCLUDES = -I/home/chadthecoder/Code/cmakeIncludeTest/lib/ACGL/include -isystem /home/chadthecoder/Code/cmakeIncludeTest/build/vcpkg_installed/x64-linux/include 
 
