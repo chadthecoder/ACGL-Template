@@ -1,3 +1,4 @@
 [submodule "lib/ACGL"]
 	path = lib/ACGL
 	url = https://github.com/chadthecoder/ACGL.git
+	recurse = true
