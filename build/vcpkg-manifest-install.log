@@ -7,20 +7,20 @@ The following packages will be built and installed:
   * vcpkg-cmake:x64-linux -> 2023-05-04
   * vcpkg-cmake-config:x64-linux -> 2022-02-06#1
 Additional packages (*) will be modified to complete this operation.
-Restored 6 package(s) from /home/chadthecoder/.cache/vcpkg/archives in 90.9 ms. Use --debug to see more details.
+Restored 6 package(s) from /home/chadthecoder/.cache/vcpkg/archives in 121 ms. Use --debug to see more details.
 Installing 1/6 vcpkg-cmake-config:x64-linux...
-Elapsed time to handle vcpkg-cmake-config:x64-linux: 762 us
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 664 us
 Installing 2/6 vcpkg-cmake:x64-linux...
-Elapsed time to handle vcpkg-cmake:x64-linux: 435 us
+Elapsed time to handle vcpkg-cmake:x64-linux: 594 us
 Installing 3/6 egl-registry:x64-linux...
-Elapsed time to handle egl-registry:x64-linux: 671 us
+Elapsed time to handle egl-registry:x64-linux: 961 us
 Installing 4/6 opengl-registry:x64-linux...
-Elapsed time to handle opengl-registry:x64-linux: 1.56 ms
+Elapsed time to handle opengl-registry:x64-linux: 2.05 ms
 Installing 5/6 glad:x64-linux...
-Elapsed time to handle glad:x64-linux: 1.02 ms
+Elapsed time to handle glad:x64-linux: 1.49 ms
 Installing 6/6 glm:x64-linux...
-Elapsed time to handle glm:x64-linux: 11 ms
-Total install time: 15.5 ms
+Elapsed time to handle glm:x64-linux: 12.5 ms
+Total install time: 18.4 ms
 glad provides CMake targets:
 
   # this is heuristically generated, and may not be correct

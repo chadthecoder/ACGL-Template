@@ -60,6 +60,14 @@ ACGL/VBO.hpp
 glad/glad.h
 -
 
+../lib/ACGL/include/ACGL/Window.hpp
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
+
 ../lib/ACGL/include/stb/stb_image.h
 stb_image.h
 ../lib/ACGL/include/stb/stb_image.h
@@ -121,6 +129,8 @@ ACGL/EBO.hpp
 /home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/EBO.hpp
 ACGL/Camera.hpp
 /home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/Camera.hpp
+ACGL/Window.hpp
+/home/chadthecoder/Code/cmakeIncludeTest/src/ACGL/Window.hpp
 
 vcpkg_installed/x64-linux/include/KHR/khrplatform.h
 stdint.h

@@ -17,6 +17,7 @@ namespace fs = std::filesystem;
 #include "ACGL/VBO.hpp"
 #include "ACGL/EBO.hpp"
 #include "ACGL/Camera.hpp"
+#include "ACGL/Window.hpp"
 
 
 const unsigned int width = 800;
@@ -47,7 +48,7 @@ GLuint indices[] =
 
 int main()
 {
-	// Initialize GLFW
+	/* // Initialize GLFW
 	glfwInit();
 
 	// Tell GLFW what version of OpenGL we are using 
@@ -68,7 +69,9 @@ int main()
 		return -1;
 	}
 	// Introduce the window into the current context
-	glfwMakeContextCurrent(window);
+	glfwMakeContextCurrent(window); */
+
+	Window glfwWindow("This is an ACGL Window Title", width, height);
 
 	//Load GLAD so it configures OpenGL
 	gladLoadGL();
@@ -129,7 +132,7 @@ int main()
 	Camera camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 
 	// Main while loop
-	while (!glfwWindowShouldClose(window))
+	while (!glfwWindow.getShouldClose())
 	{
 		// Specify the color of the background
 		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
@@ -139,7 +142,7 @@ int main()
 		shaderProgram.Activate();
 
 		// Handles camera inputs
-		camera.Inputs(window);
+		camera.Inputs(glfwWindow.getWindow());
 		// Updates and exports the camera matrix to the Vertex Shader
 		camera.Matrix(45.0f, 0.1f, 100.0f, shaderProgram, "camMatrix");
 
@@ -150,7 +153,7 @@ int main()
 		// Draw primitives, number of indices, datatype of indices, index of indices
 		glDrawElements(GL_TRIANGLES, sizeof(indices) / sizeof(int), GL_UNSIGNED_INT, 0);
 		// Swap the back buffer with the front buffer
-		glfwSwapBuffers(window);
+		glfwSwapBuffers(glfwWindow.getWindow());
 		// Take care of all GLFW events
 		glfwPollEvents();
 	}
@@ -164,7 +167,7 @@ int main()
 	brickTex.Delete();
 	shaderProgram.Delete();
 	// Delete window before ending the program
-	glfwDestroyWindow(window);
+	glfwDestroyWindow(glfwWindow.getWindow());
 	// Terminate GLFW before ending the program
 	glfwTerminate();
 	return 0;
