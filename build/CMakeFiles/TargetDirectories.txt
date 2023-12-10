@@ -1,6 +1,0 @@
-/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles/rebuild_cache.dir
-/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles/edit_cache.dir
-/home/chadthecoder/Code/cmakeIncludeTest/build/CMakeFiles/cmakeTest.dir
-/home/chadthecoder/Code/cmakeIncludeTest/build/lib/ACGL/CMakeFiles/rebuild_cache.dir
-/home/chadthecoder/Code/cmakeIncludeTest/build/lib/ACGL/CMakeFiles/edit_cache.dir
-/home/chadthecoder/Code/cmakeIncludeTest/build/lib/ACGL/CMakeFiles/ACGL.dir
