@@ -135,7 +135,9 @@ int main()
 	{
 		glfwWindow.setBackgroundColor(glm::vec4(0.07f, 0.13f, 0.17f, 1.0f));
 		// Clean the back buffer and depth buffer
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		glfwWindow.bitClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		
 		// Tell OpenGL which Shader Program we want to use
 		shaderProgram.Activate();
 
