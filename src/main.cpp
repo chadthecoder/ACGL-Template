@@ -16,7 +16,6 @@ namespace fs = std::filesystem;
 #include "ACGL/VAO.hpp"
 #include "ACGL/VBO.hpp"
 #include "ACGL/EBO.hpp"
-#include "ACGL/Camera.hpp"
 #include "ACGL/Window.hpp"
 
 
@@ -71,7 +70,7 @@ int main()
 	// Introduce the window into the current context
 	glfwMakeContextCurrent(window); */
 
-	Window glfwWindow("This is an ACGL Window Title", width, height);
+	Window glfwWindow("This is an ACGL Window Title", width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 
 	//Load GLAD so it configures OpenGL
 	gladLoadGL();
@@ -129,7 +128,7 @@ int main()
 	glEnable(GL_DEPTH_TEST);
 
 	// Creates camera object
-	Camera camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
+	//Camera camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 
 	// Main while loop
 	while (!glfwWindow.getShouldClose())
@@ -142,9 +141,11 @@ int main()
 		shaderProgram.Activate();
 
 		// Handles camera inputs
-		camera.Inputs(glfwWindow.getWindow());
+		glfwWindow.getInputs();
+		//camera.Inputs(glfwWindow.getWindow());
 		// Updates and exports the camera matrix to the Vertex Shader
-		camera.Matrix(45.0f, 0.1f, 100.0f, shaderProgram, "camMatrix");
+		//camera.Matrix(45.0f, 0.1f, 100.0f, shaderProgram, "camMatrix");
+		glfwWindow.uMatrix(shaderProgram, "camMatrix");
 
 		// Binds texture so that is appears in rendering
 		brickTex.Bind();
@@ -153,22 +154,13 @@ int main()
 		// Draw primitives, number of indices, datatype of indices, index of indices
 		glDrawElements(GL_TRIANGLES, sizeof(indices) / sizeof(int), GL_UNSIGNED_INT, 0);
 		// Swap the back buffer with the front buffer
-		glfwSwapBuffers(glfwWindow.getWindow());
+		//glfwSwapBuffers(glfwWindow.getWindow());
+		glfwWindow.swapBuffers();
 		// Take care of all GLFW events
 		glfwPollEvents();
 	}
 
-
-
-	// Delete all the objects we've created
-	VAO1.Delete();
-	VBO1.Delete();
-	EBO1.Delete();
-	brickTex.Delete();
-	shaderProgram.Delete();
-	// Delete window before ending the program
-	glfwDestroyWindow(glfwWindow.getWindow());
-	// Terminate GLFW before ending the program
-	glfwTerminate();
+	// Destructors auto-delete all the objects we've created
+	
 	return 0;
 }
